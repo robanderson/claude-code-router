@@ -6,7 +6,7 @@ This directory contains comprehensive specifications for reimplementing the Clau
 
 ## Document Structure
 
-The specification is divided into 12 documents, each covering a specific aspect of the system:
+The specification is divided into 13 documents, each covering a specific aspect of the system:
 
 ### Core System Documentation
 
@@ -97,11 +97,22 @@ The specification is divided into 12 documents, each covering a specific aspect 
     - Performance optimization
     - Hybrid local/cloud workflow recommendations
 
+### Future Enhancements
+
+13. **[12-intelligent-pre-routing.md](12-intelligent-pre-routing.md)** - Intelligent pre-routing with small fast models
+    - Using 1B-3B models for request classification
+    - 10 high-value routing use cases
+    - Three implementation approaches (heuristic, ML, hybrid)
+    - Context management across model switches
+    - Cost-benefit analysis (89% savings, 60% faster)
+    - Performance monitoring and metrics
+    - Integration with existing router
+
 ## Reading Guide
 
 ### For Complete Implementation
 
-Read the documents in order (00-11) for a comprehensive understanding of the entire system.
+Read the documents in order (00-12) for a comprehensive understanding of the entire system.
 
 ### For Specific Features
 
@@ -110,6 +121,7 @@ Read the documents in order (00-11) for a comprehensive understanding of the ent
 - **Setting up authentication?** → Read 08
 - **Integrating MLX models?** → Read 11
 - **Building the CLI?** → Read 06
+- **Want intelligent cost-saving routing?** → Read 12
 
 ### Quick Start Path
 

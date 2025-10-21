@@ -2,11 +2,11 @@
 
 ## Deliverable Overview
 
-A complete set of specification documents (6000+ lines) detailing every aspect of the Claude Code Router system, sufficient for a clean-room Python reimplementation with MLX integration.
+A complete set of specification documents (7200+ lines) detailing every aspect of the Claude Code Router system, sufficient for a clean-room Python reimplementation with MLX integration.
 
 ## What's Included
 
-### 13 Comprehensive Documents
+### 14 Comprehensive Documents
 
 1. **System Architecture** - Complete system overview, component interactions, and data flows
 2. **Configuration System** - JSON5 config format, validation, environment variables, backups
@@ -20,7 +20,8 @@ A complete set of specification documents (6000+ lines) detailing every aspect o
 10. **Logging** - Rotating logs, request logging, status line system
 11. **Python Implementation** - Complete technology stack, project structure, code examples
 12. **MLX Integration** - Local model integration, transformer, server, optimization
-13. **README** - Reading guide, roadmap, dependencies, quick start
+13. **Intelligent Pre-Routing** - 1B-3B model for smart routing, 89% cost savings, context management
+14. **README** - Reading guide, roadmap, dependencies, quick start
 
 ## Specification Completeness
 
