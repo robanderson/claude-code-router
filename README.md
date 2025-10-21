@@ -128,6 +128,12 @@ Here is a comprehensive example:
       "models": ["qwen2.5-coder:latest"]
     },
     {
+      "name": "lmstudio",
+      "api_base_url": "http://localhost:1234/v1/chat/completions",
+      "api_key": "lm-studio",
+      "models": ["local-model"]
+    },
+    {
       "name": "gemini",
       "api_base_url": "https://generativelanguage.googleapis.com/v1beta/models/",
       "api_key": "sk-xxx",
